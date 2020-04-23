@@ -17,7 +17,7 @@
               </xs:sequence>
             </xs:complexType>
           </xs:element>
-          <xs:element name="Ventity_x0020_World" msdata:EntityTypeName="Ventity World" msdata:IsEntityTypeSingular="False" msprop:EntityKeyFields="Ventity WorldID" msprop:LookupTableFields="Fraction of agricultural inputs for land maintenance table">
+          <xs:element name="Ventity_x0020_World" msdata:EntityTypeName="Ventity World" msdata:IsEntityTypeSingular="False" msprop:EntityKeyFields="Ventity WorldID" msprop:LookupTableFields="GDP per capita table">
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Ventity_x0020_WorldID" type="xs:string" minOccurs="0" />
@@ -100,6 +100,30 @@
                 <xs:element name="Perceived_x0020_life_x0020_expectancy_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
                 <xs:element name="Perceived_x0020_life_x0020_expectancy_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
                 <xs:element name="Perceived_x0020_life_x0020_expectancy_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_technology" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_technology_x0020_change_x0020_multiplier_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_technology" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_table_x0020_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Resource_x0020_conservation_x0020_technology" type="xs:double" minOccurs="0" />
+                <xs:element name="Industrial_x0020_capital_x0020_output_x0020_ratio_x0020_from_x0020_resource_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Resource_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Resource_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_technology_x0020_change_x0020_multiplier_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_table_x0020_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Industrial_x0020_capital_x0020_output_x0020_ratio_x0020_from_x0020_pollution_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Industrial_x0020_capital_x0020_output_x0020_ratio_x0020_multiplier_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Life_x0020_expectancy_x0020_index_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Education_x0020_index_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="GDP_x0020_per_x0020_capita_x0020_table" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>

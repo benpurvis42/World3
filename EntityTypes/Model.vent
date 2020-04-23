@@ -39,9 +39,15 @@
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land life multiplier from land yield" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield multiplier from air pollution" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield multiplier from technology" OwnerTag="EntityType:Ventity World" />
+            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield technology change rate" OwnerTag="EntityType:Ventity World" />
+            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield technology change rate multiplier" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Lifetime multiplier from health services" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Nonrenewable resource usage factor" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Persistent pollution generation factor" OwnerTag="EntityType:Ventity World" />
+            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Persistent pollution technology change multiplier" OwnerTag="EntityType:Ventity World" />
+            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Persistent pollution technology change rate" OwnerTag="EntityType:Ventity World" />
+            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Resource technology change rate" OwnerTag="EntityType:Ventity World" />
+            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Resource technology change rate multiplier" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Service capital output ratio" OwnerTag="EntityType:Ventity World" />
           </Uses>
         </Auxiliary>
