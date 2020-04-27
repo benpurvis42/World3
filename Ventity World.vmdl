@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Model name="Ventity World" UniqueID="a14f433c-1d16-47d1-9995-3a637bcf6628">
+<Model name="Ventity World" UniqueID="ff1f3402-4bde-429f-8aae-4278b73ac134">
   <SaveLists />
   <OptimizationConfigs />
   <SensitivityConfigs />
   <RunConfigs>
-    <RunConfig name="" guid="b3ce464d-79aa-43a9-b0e6-0981d5dbdeeb" usingCalendarTime="false" initialTime="1900" finalTime="2100" timestep="0.5" unitOfTime="Year" initialCalendarTime="637226784000000000" finalCalendarTime="637332192000000000" enabled="true" saveTimeStep="1" initialSaveTime="1900" finalSaveTime="2100" initialSaveCalendarTime="637226784000000000" finalSaveCalendarTime="637332192000000000" sensitivityFilePath=".\Results" sensitivityFileFormat="Binary (.vsrp)" sensitivityResultsInMemory="Yes" />
+    <RunConfig name="Scenario 1" guid="b3ce464d-79aa-43a9-b0e6-0981d5dbdeeb" usingCalendarTime="false" initialTime="1900" finalTime="2100" timestep="0.5" unitOfTime="Year" initialCalendarTime="637226784000000000" finalCalendarTime="637332192000000000" enabled="true" saveTimeStep="1" initialSaveTime="1900" finalSaveTime="2100" initialSaveCalendarTime="637226784000000000" finalSaveCalendarTime="637332192000000000" sensitivityFilePath=".\Results" sensitivityFileFormat="Binary (.vsrp)" sensitivityResultsInMemory="Yes" />
   </RunConfigs>
   <ActiveEntityTypes>
     <EntityType name="Model" FileName="Model.vent" />
-    <EntityType name="Ventity World" FileName="Ventity World.vent" />
+    <EntityType name="World3_2003" FileName="World3_2003.vent" />
   </ActiveEntityTypes>
   <DataSources>
-    <EntityFile Name="Entities 1" UniqueID="27a5d184-d53b-4647-8aba-f6a19bf9cd5e" Selected="true" />
+    <EntityFile Name="Scenario 1" UniqueID="d3eb7d49-8511-42d5-9e66-29cd4de2e5c3" Selected="true" />
+    <EntityFile Name="Scenario 2" UniqueID="cf4017d5-438f-4591-88c5-49c016df8185" />
   </DataSources>
-  <InputDataSets />
+  <InputDataSets>
+    <DataSet Name="World3-03 Scenarios" UniqueID="82e2537a-75e8-4b8e-87a7-4bf89a32eb3e">
+      <EntityFile Name="Scenario 1" UniqueID="d3eb7d49-8511-42d5-9e66-29cd4de2e5c3" />
+      <EntityFile Name="Scenario 2" UniqueID="cf4017d5-438f-4591-88c5-49c016df8185" />
+    </DataSet>
+  </InputDataSets>
   <TimeSeriesDataSources />
   <TimeSeriesDataSets />
   <RunRoster />
   <SelectedStyleSheet>Basic</SelectedStyleSheet>
   <Units>
     <Unit name="" SynonymFor="" CompoundExpr="" />
-    <Unit name=".75" SynonymFor="" CompoundExpr="" />
-    <Unit name="1" SynonymFor="" CompoundExpr="" />
-    <Unit name="2.3e9" SynonymFor="" CompoundExpr="" />
     <Unit name="Day" SynonymFor="" CompoundExpr="" />
     <Unit name="Days" SynonymFor="Day" CompoundExpr="" />
     <Unit name="dimensionless" SynonymFor="" CompoundExpr="" />
@@ -31,29 +34,24 @@
     <Unit name="$" SynonymFor="" CompoundExpr="" />
     <Unit name="Dollars" SynonymFor="$" CompoundExpr="" />
     <Unit name="$s" SynonymFor="$" CompoundExpr="" />
-    <Unit name="fraction" SynonymFor="dimensionless" CompoundExpr="" />
-    <Unit name="Ghectare" SynonymFor="" CompoundExpr="" />
     <Unit name="Hectare" SynonymFor="" CompoundExpr="" />
     <Unit name="Hour" SynonymFor="" CompoundExpr="" />
     <Unit name="Hours" SynonymFor="Hour" CompoundExpr="" />
     <Unit name="hr" SynonymFor="Hour" CompoundExpr="" />
     <Unit name="hrs" SynonymFor="Hour" CompoundExpr="" />
-    <Unit name="Indicated food per capita 1 table" SynonymFor="" CompoundExpr="" />
-    <Unit name="Lifetime multiplier from health services 1 table" SynonymFor="" CompoundExpr="" />
     <Unit name="Month" SynonymFor="" CompoundExpr="" />
     <Unit name="Months" SynonymFor="Month" CompoundExpr="" />
     <Unit name="People" SynonymFor="" CompoundExpr="" />
     <Unit name="Person" SynonymFor="People" CompoundExpr="" />
     <Unit name="Persons" SynonymFor="People" CompoundExpr="" />
     <Unit name="Pollution units" SynonymFor="" CompoundExpr="" />
-    <Unit name="Resour" SynonymFor="" CompoundExpr="" />
     <Unit name="Resource unit" SynonymFor="" CompoundExpr="" />
-    <Unit name="Resource units" SynonymFor="" CompoundExpr="" />
+    <Unit name="Resource units" SynonymFor="Resource unit" CompoundExpr="" />
     <Unit name="Unit" SynonymFor="" CompoundExpr="" />
     <Unit name="Units" SynonymFor="Unit" CompoundExpr="" />
-    <Unit name="Veg equiv kg" SynonymFor="" CompoundExpr="" />
-    <Unit name="Veg eqv kg" SynonymFor="" CompoundExpr="" />
-    <Unit name="Vegetable equiv kg" SynonymFor="" CompoundExpr="" />
+    <Unit name="Veg equiv kg" SynonymFor="Vegetable equivalent kg" CompoundExpr="" />
+    <Unit name="Veg eqv kg" SynonymFor="Vegetable equivalent kg" CompoundExpr="" />
+    <Unit name="Vegetable equivalent kg" SynonymFor="" CompoundExpr="" />
     <Unit name="Week" SynonymFor="" CompoundExpr="" />
     <Unit name="Weeks" SynonymFor="Week" CompoundExpr="" />
     <Unit name="wk" SynonymFor="Week" CompoundExpr="" />
@@ -71,7 +69,7 @@
   <Charts>
     <Chart name="chart1">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -163,7 +161,7 @@
     </Chart>
     <Chart name="chart10">
       <PlotedItems>
-        <PlottedItem VariableName="Land yield" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land yield" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -255,7 +253,7 @@
     </Chart>
     <Chart name="chart11">
       <PlotedItems>
-        <PlottedItem VariableName="Land fertility" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land fertility" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -347,7 +345,7 @@
     </Chart>
     <Chart name="chart12">
       <PlotedItems>
-        <PlottedItem VariableName="Food per capita" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Food per capita" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -439,7 +437,7 @@
     </Chart>
     <Chart name="chart13">
       <PlotedItems>
-        <PlottedItem VariableName="Arable land" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Arable land" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -531,7 +529,7 @@
     </Chart>
     <Chart name="chart14">
       <PlotedItems>
-        <PlottedItem VariableName="Initial arable land" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Initial arable land" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -623,7 +621,7 @@
     </Chart>
     <Chart name="chart15">
       <PlotedItems>
-        <PlottedItem VariableName="Land life multiplier from land yield 1" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land life multiplier from land yield 1" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -715,7 +713,7 @@
     </Chart>
     <Chart name="chart16">
       <PlotedItems>
-        <PlottedItem VariableName="Land yield multiplier from air pollution 1" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land yield multiplier from air pollution 1" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -807,7 +805,7 @@
     </Chart>
     <Chart name="chart17">
       <PlotedItems>
-        <PlottedItem VariableName="Food" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Food" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -899,7 +897,7 @@
     </Chart>
     <Chart name="chart18">
       <PlotedItems>
-        <PlottedItem VariableName="Food per capita" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Food per capita" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -991,7 +989,7 @@
     </Chart>
     <Chart name="chart19">
       <PlotedItems>
-        <PlottedItem VariableName="Nonrenewable resources" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Nonrenewable resources" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1083,7 +1081,7 @@
     </Chart>
     <Chart name="chart2">
       <PlotedItems>
-        <PlottedItem VariableName="Service output per capita" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Service output per capita" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1175,7 +1173,7 @@
     </Chart>
     <Chart name="chart20">
       <PlotedItems>
-        <PlottedItem VariableName="Persistent pollution" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Persistent pollution" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1267,7 +1265,7 @@
     </Chart>
     <Chart name="chart21">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1359,7 +1357,7 @@
     </Chart>
     <Chart name="chart22">
       <PlotedItems>
-        <PlottedItem VariableName="Fraction of industrial output allocated to industry" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Fraction of industrial output allocated to industry" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1451,7 +1449,7 @@
     </Chart>
     <Chart name="chart23">
       <PlotedItems>
-        <PlottedItem VariableName="Fraction of industrial output allocated to agriculture" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Fraction of industrial output allocated to agriculture" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1543,7 +1541,7 @@
     </Chart>
     <Chart name="chart24">
       <PlotedItems>
-        <PlottedItem VariableName="Fraction of industrial output allocated to services" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Fraction of industrial output allocated to services" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1635,7 +1633,7 @@
     </Chart>
     <Chart name="chart25">
       <PlotedItems>
-        <PlottedItem VariableName="Index of persistent pollution" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Index of persistent pollution" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1727,7 +1725,7 @@
     </Chart>
     <Chart name="chart26">
       <PlotedItems>
-        <PlottedItem VariableName="Fraction of capital allocated to obtaining resources" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Fraction of capital allocated to obtaining resources" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1819,7 +1817,7 @@
     </Chart>
     <Chart name="chart27">
       <PlotedItems>
-        <PlottedItem VariableName="Nonrenewable resource fraction remaining" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Nonrenewable resource fraction remaining" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -1911,7 +1909,7 @@
     </Chart>
     <Chart name="chart28">
       <PlotedItems>
-        <PlottedItem VariableName="Industrial output per capita" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Industrial output per capita" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2003,7 +2001,7 @@
     </Chart>
     <Chart name="chart29">
       <PlotedItems>
-        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2095,7 +2093,7 @@
     </Chart>
     <Chart name="chart3">
       <PlotedItems>
-        <PlottedItem VariableName="Industrial Capital" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Industrial Capital" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2196,7 +2194,7 @@
     </Chart>
     <Chart name="chart30">
       <PlotedItems>
-        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2288,7 +2286,7 @@
     </Chart>
     <Chart name="chart31">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2380,7 +2378,7 @@
     </Chart>
     <Chart name="chart32">
       <PlotedItems>
-        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2472,7 +2470,7 @@
     </Chart>
     <Chart name="chart33">
       <PlotedItems>
-        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2564,7 +2562,7 @@
     </Chart>
     <Chart name="chart34">
       <PlotedItems>
-        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2656,7 +2654,7 @@
     </Chart>
     <Chart name="chart35">
       <PlotedItems>
-        <PlottedItem VariableName="Persistent pollution" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Persistent pollution" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2748,7 +2746,7 @@
     </Chart>
     <Chart name="chart36">
       <PlotedItems>
-        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Life expectancy" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2840,7 +2838,7 @@
     </Chart>
     <Chart name="chart37">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -2932,7 +2930,7 @@
     </Chart>
     <Chart name="chart38">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3116,7 +3114,7 @@
     </Chart>
     <Chart name="chart4">
       <PlotedItems>
-        <PlottedItem VariableName="Fraction of industrial output allocated to consumption" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Fraction of industrial output allocated to consumption" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3208,7 +3206,7 @@
     </Chart>
     <Chart name="chart40">
       <PlotedItems>
-        <PlottedItem VariableName="Persistent pollution technology" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Persistent pollution technology" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3300,7 +3298,7 @@
     </Chart>
     <Chart name="chart41">
       <PlotedItems>
-        <PlottedItem VariableName="Persistent pollution technology change multiplier 1" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Persistent pollution technology change multiplier 1" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3392,7 +3390,7 @@
     </Chart>
     <Chart name="chart42">
       <PlotedItems>
-        <PlottedItem VariableName="Land yield multiplier from air pollution" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land yield multiplier from air pollution" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3484,7 +3482,7 @@
     </Chart>
     <Chart name="chart43">
       <PlotedItems>
-        <PlottedItem VariableName="Land yield multiplier from capital" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land yield multiplier from capital" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3576,7 +3574,7 @@
     </Chart>
     <Chart name="chart44">
       <PlotedItems>
-        <PlottedItem VariableName="Land yield multiplier from air pollution 1" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land yield multiplier from air pollution 1" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3668,7 +3666,7 @@
     </Chart>
     <Chart name="chart45">
       <PlotedItems>
-        <PlottedItem VariableName="Land yield multiplier from air pollution 2" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Land yield multiplier from air pollution 2" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3760,7 +3758,7 @@
     </Chart>
     <Chart name="chart46">
       <PlotedItems>
-        <PlottedItem VariableName="Food ratio" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Food ratio" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3852,7 +3850,7 @@
     </Chart>
     <Chart name="chart47">
       <PlotedItems>
-        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -3944,7 +3942,7 @@
     </Chart>
     <Chart name="chart48">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4036,7 +4034,7 @@
     </Chart>
     <Chart name="chart49">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4128,7 +4126,7 @@
     </Chart>
     <Chart name="chart5">
       <PlotedItems>
-        <PlottedItem VariableName="Capital utilisation function" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Capital utilisation function" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4220,7 +4218,7 @@
     </Chart>
     <Chart name="chart50">
       <PlotedItems>
-        <PlottedItem VariableName="Persistent pollution technology" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Persistent pollution technology" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4312,7 +4310,7 @@
     </Chart>
     <Chart name="chart51">
       <PlotedItems>
-        <PlottedItem VariableName="Persistent pollution technology change multiplier 1" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Persistent pollution technology change multiplier 1" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4404,7 +4402,7 @@
     </Chart>
     <Chart name="chart52">
       <PlotedItems>
-        <PlottedItem VariableName="Population" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Population" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4496,7 +4494,7 @@
     </Chart>
     <Chart name="chart53">
       <PlotedItems>
-        <PlottedItem VariableName="Human welfare index" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Human welfare index" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4588,7 +4586,7 @@
     </Chart>
     <Chart name="chart54">
       <PlotedItems>
-        <PlottedItem VariableName="Human ecological footprint" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Human ecological footprint" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4680,7 +4678,7 @@
     </Chart>
     <Chart name="chart6">
       <PlotedItems>
-        <PlottedItem VariableName="Jobs" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Jobs" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4772,7 +4770,7 @@
     </Chart>
     <Chart name="chart7">
       <PlotedItems>
-        <PlottedItem VariableName="Fraction of industrial output allocated to services" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Fraction of industrial output allocated to services" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4864,7 +4862,7 @@
     </Chart>
     <Chart name="chart8">
       <PlotedItems>
-        <PlottedItem VariableName="Food" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Food" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />
@@ -4956,7 +4954,7 @@
     </Chart>
     <Chart name="chart9">
       <PlotedItems>
-        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:Ventity World" />
+        <PlottedItem VariableName="Industrial output" OwnerTag="EntityType:World3_2003" />
       </PlotedItems>
       <MainTitleText MainTitleText="" />
       <ViewType ViewType="Line" />

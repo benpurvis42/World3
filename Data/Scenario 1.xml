@@ -1,0 +1,140 @@
+<?xml version="1.0" standalone="yes"?>
+<Scenario_x0020_1>
+  <xs:schema id="Scenario_x0020_1" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="Scenario_x0020_1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Model" msdata:EntityTypeName="Model" msdata:IsEntityTypeSingular="False" msprop:EntityKeyFields="EntityName" msprop:LookupTableFields="">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EntityName" type="xs:string" minOccurs="0" />
+                <xs:element name="CalendarTime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Time" type="xs:double" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Final_x0020_Time" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_Time" type="xs:double" minOccurs="0" />
+                <xs:element name="Time_x0020_Step" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="World3_2003" msdata:EntityTypeName="World3_2003" msdata:IsEntityTypeSingular="False" msprop:EntityKeyFields="World3_2003ID" msprop:LookupTableFields="Assimilation half life multiplier table,Capital utilisation function table,Compensatory multiplier from perceived life table,Crowding multiplier from industrialisation table,Development cost per hectare table,Education index table,Family response to social norm table,Fecundity multiplier table,Fertility control effectiveness table,Fraction of agricultural inputs allocated to land development table,Fraction of agricultural inputs for land maintenance table,Fraction of capital allocated to obtaining resources 1 table,Fraction of capital allocated to obtaining resources 2 table,Fraction of industrial output allocated to agriculture 1 table,Fraction of industrial output allocated to agriculture 2 table,Fraction of industrial output allocated to consumption variable table,Fraction of industrial output allocated to services 1 table,Fraction of industrial output allocated to services 2 table,Fraction of population urban table,Fraction of services allocated to fertility control per capita table,GDP per capita table,Health services per capita table,Indicated food per capita 1 table,Indicated food per capita 2 table,Indicated service output per capita 1 table,Indicated service output per capita 2 table,Industrial capital output ratio from pollution table,Industrial capital output ratio from resource table,Industrial capital output ratio multiplier table,Jobs per hectare table,Jobs per industrial capital unit table,Jobs per service capital unit table,Land fertility degradation rate table,Land fertility regeneration time table,Land life multiplier from land yield 1 table,Land life multiplier from land yield 2 table,Land yield multipler from air pollution 1 table,Land yield multiplier from air pollution 2 table,Land yield multiplier from capital table,Land yield technology change rate multiplier table 1,Land yield technology change rate multiplier table 2,Life expectancy index table,Lifetime multiplier from food table,Lifetime multiplier from health services 1 table,Lifetime multiplier from health services 2 table,Lifetime multiplier from persistent pollution table,Marginal land yield multiplier from capital table,Mortality 0 to 14 table,Mortality 15 to 44 table,Mortality 45 to 64 table,Mortality 65 plus table,Per capita resource usage multiplier table,Persistent pollution technology change multiplier 1 table,Persistent pollution technology change multiplier 2 table,Resource technology change rate multiplier 1 table,Resource technology change rate multiplier 2 table,Social family size norm table,Urban and industrial land required per capita table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="World3_2003ID" type="xs:string" minOccurs="0" />
+                <xs:element name="CalendarTime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Time" type="xs:double" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EntityName" type="xs:string" minOccurs="0" />
+                <xs:element name="Arable_x0020_land" type="xs:double" minOccurs="0" />
+                <xs:element name="Assimilation_x0020_half_x0020_life_x0020_multiplier_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Capital_x0020_utilisation_x0020_function_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Compensatory_x0020_multiplier_x0020_from_x0020_perceived_x0020_life_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Crowding_x0020_multiplier_x0020_from_x0020_industrialisation_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Development_x0020_cost_x0020_per_x0020_hectare_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Education_x0020_index_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Family_x0020_response_x0020_to_x0020_social_x0020_norm_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fecundity_x0020_multiplier_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fertility_x0020_control_x0020_effectiveness_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_agricultural_x0020_inputs_x0020_allocated_x0020_to_x0020_land_x0020_development_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_agricultural_x0020_inputs_x0020_for_x0020_land_x0020_maintenance_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_capital_x0020_allocated_x0020_to_x0020_obtaining_x0020_resources_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_capital_x0020_allocated_x0020_to_x0020_obtaining_x0020_resources_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_industrial_x0020_output_x0020_allocated_x0020_to_x0020_agriculture_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_industrial_x0020_output_x0020_allocated_x0020_to_x0020_agriculture_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_industrial_x0020_output_x0020_allocated_x0020_to_x0020_consumption_x0020_variable_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_industrial_x0020_output_x0020_allocated_x0020_to_x0020_services_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_industrial_x0020_output_x0020_allocated_x0020_to_x0020_services_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_population_x0020_urban_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_services_x0020_allocated_x0020_to_x0020_fertility_x0020_control_x0020_per_x0020_capita_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="GDP_x0020_per_x0020_capita_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Health_x0020_services_x0020_per_x0020_capita_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Indicated_x0020_food_x0020_per_x0020_capita_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Indicated_x0020_food_x0020_per_x0020_capita_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Indicated_x0020_service_x0020_output_x0020_per_x0020_capita_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Indicated_x0020_service_x0020_output_x0020_per_x0020_capita_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Industrial_x0020_Capital" type="xs:double" minOccurs="0" />
+                <xs:element name="Industrial_x0020_capital_x0020_output_x0020_ratio_x0020_from_x0020_pollution_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Industrial_x0020_capital_x0020_output_x0020_ratio_x0020_from_x0020_resource_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Industrial_x0020_capital_x0020_output_x0020_ratio_x0020_multiplier_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Jobs_x0020_per_x0020_hectare_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Jobs_x0020_per_x0020_industrial_x0020_capital_x0020_unit_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Jobs_x0020_per_x0020_service_x0020_capital_x0020_unit_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_fertility" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_fertility_x0020_degradation_x0020_rate_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_fertility_x0020_regeneration_x0020_time_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_life_x0020_multiplier_x0020_from_x0020_land_x0020_yield_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_life_x0020_multiplier_x0020_from_x0020_land_x0020_yield_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_multipler_x0020_from_x0020_air_x0020_pollution_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_multiplier_x0020_from_x0020_air_x0020_pollution_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_multiplier_x0020_from_x0020_capital_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_technology" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_table_x0020_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_table_x0020_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Life_x0020_expectancy_x0020_index_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Lifetime_x0020_multiplier_x0020_from_x0020_food_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Lifetime_x0020_multiplier_x0020_from_x0020_health_x0020_services_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Lifetime_x0020_multiplier_x0020_from_x0020_health_x0020_services_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Lifetime_x0020_multiplier_x0020_from_x0020_persistent_x0020_pollution_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Marginal_x0020_land_x0020_yield_x0020_multiplier_x0020_from_x0020_capital_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Mortality_x0020_0_x0020_to_x0020_14_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Mortality_x0020_15_x0020_to_x0020_44_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Mortality_x0020_45_x0020_to_x0020_64_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Mortality_x0020_65_x0020_plus_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resources" type="xs:double" minOccurs="0" />
+                <xs:element name="Per_x0020_capita_x0020_resource_x0020_usage_x0020_multiplier_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_technology" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_technology_x0020_change_x0020_multiplier_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_technology_x0020_change_x0020_multiplier_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Population_x0020_0_x0020_to_x0020_14" type="xs:double" minOccurs="0" />
+                <xs:element name="Population_x0020_15_x0020_to_x0020_44" type="xs:double" minOccurs="0" />
+                <xs:element name="Population_x0020_45_x0020_to_x0020_64" type="xs:double" minOccurs="0" />
+                <xs:element name="Population_x0020_65_x0020_plus" type="xs:double" minOccurs="0" />
+                <xs:element name="Potentially_x0020_arable_x0020_land" type="xs:double" minOccurs="0" />
+                <xs:element name="Resource_x0020_conservation_x0020_technology" type="xs:double" minOccurs="0" />
+                <xs:element name="Resource_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_1_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Resource_x0020_technology_x0020_change_x0020_rate_x0020_multiplier_x0020_2_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Service_x0020_capital" type="xs:double" minOccurs="0" />
+                <xs:element name="Social_x0020_family_x0020_size_x0020_norm_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Urban_x0020_and_x0020_Industrial_x0020_Land" type="xs:double" minOccurs="0" />
+                <xs:element name="Urban_x0020_and_x0020_industrial_x0020_land_x0020_required_x0020_per_x0020_capita_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Initial_x0020_nonrenewable_x0020_resources" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_persistent_x0020_pollution" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_population_x0020_0_x0020_to_x0020_14" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_population_x0020_15_x0020_to_x0020_44" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_population_x0020_45_x0020_to_x0020_64" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_population_x0020_65_x0020_plus" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_potentially_x0020_arable_x0020_land" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_service_x0020_capital" type="xs:double" minOccurs="0" />
+                <xs:element name="Initial_x0020_urban_x0020_and_x0020_industrial_x0020_land" type="xs:double" minOccurs="0" />
+                <xs:element name="Fraction_x0020_of_x0020_capital_x0020_allocated_x0020_to_x0020_obtaining_x0020_resources_x0020_switch_x0020_time" type="xs:double" minOccurs="0" />
+                <xs:element name="Policy_x0020_year" type="xs:double" minOccurs="0" />
+                <xs:element name="persistent_x0020_pollution_x0020_technology_x0020_change_x0020_time" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_policy_x0020_time" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_life_x0020_policy_x0020_implementation_x0020_year" type="xs:double" minOccurs="0" />
+                <xs:element name="Resource_x0020_technology_x0020_change_x0020_time" type="xs:double" minOccurs="0" />
+                <xs:element name="Fertility_x0020_control_x0020_effectiveness_x0020_time" type="xs:double" minOccurs="0" />
+                <xs:element name="Industrial_x0020_equilibrium_x0020_time" type="xs:double" minOccurs="0" />
+                <xs:element name="Desired_x0020_completed_x0020_family_x0020_size_x0020_normal" type="xs:double" minOccurs="0" />
+                <xs:element name="Desired_x0020_food_x0020_ratio" type="xs:double" minOccurs="0" />
+                <xs:element name="Desired_x0020_industrial_x0020_output_x0020_per_x0020_capita" type="xs:double" minOccurs="0" />
+                <xs:element name="Desired_x0020_persistent_x0020_pollution_x0020_index" type="xs:double" minOccurs="0" />
+                <xs:element name="Desired_x0020_resource_x0020_use_x0020_rate" type="xs:double" minOccurs="0" />
+                <xs:element name="Average_x0020_lifetime_x0020_of_x0020_agricultural_x0020_inputs_x0020_1" type="xs:double" minOccurs="0" />
+                <xs:element name="Average_x0020_lifetime_x0020_of_x0020_agricultural_x0020_inputs_x0020_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Average_x0020_lifetime_x0020_of_x0020_industrial_x0020_capital_x0020_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Average_x0020_lifetime_x0020_of_x0020_service_x0020_capital_x0020_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2" type="xs:double" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_1" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <World3_2003>
+    <Enabled>true</Enabled>
+    <Initial_x0020_nonrenewable_x0020_resources>1000000000000</Initial_x0020_nonrenewable_x0020_resources>
+  </World3_2003>
+</Scenario_x0020_1>
