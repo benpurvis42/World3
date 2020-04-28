@@ -22,33 +22,6 @@
           <IsConstant>false</IsConstant>
           <Equation>0</Equation>
           <Uses>
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Average lifetime of agricultural inputs" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Average lifetime of industrial capital" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Average lifetime of service capital" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Births" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Desired completed family size" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Fertility control effectiveness" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Fraction of capital allocated to obtaining resources" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Fraction of industrial output allocated to agriculture" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Fraction of industrial output allocated to consumption" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Fraction of industrial output allocated to consumption constant" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Fraction of industrial output allocated to services" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Indicated food per capita" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Indicated service output per capita" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Industrial capital output ratio" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land life multiplier from land yield" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield multiplier from air pollution" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield multiplier from technology" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield technology change rate" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Land yield technology change rate multiplier" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Lifetime multiplier from health services" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Nonrenewable resource usage factor" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Persistent pollution generation factor" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Persistent pollution technology change multiplier" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Persistent pollution technology change rate" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Resource technology change rate" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Resource technology change rate multiplier" OwnerTag="EntityType:Ventity World" />
-            <Use CausalType="InformationSource" Reference="Ventity World" VariableName="Service capital output ratio" OwnerTag="EntityType:Ventity World" />
             <Use CausalType="InformationSource" Reference="World3_2003" VariableName="Average lifetime of agricultural inputs" OwnerTag="EntityType:World3_2003" />
             <Use CausalType="InformationSource" Reference="World3_2003" VariableName="Average lifetime of industrial capital" OwnerTag="EntityType:World3_2003" />
             <Use CausalType="InformationSource" Reference="World3_2003" VariableName="Average lifetime of service capital" OwnerTag="EntityType:World3_2003" />

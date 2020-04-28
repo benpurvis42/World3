@@ -4,13 +4,13 @@
     <xs:element name="Scenario_x0020_2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="Model" msdata:EntityTypeName="Model" msdata:IsEntityTypeSingular="False" msprop:EntityKeyFields="EntityName" msprop:LookupTableFields="">
+          <xs:element name="Model" msdata:EntityTypeName="Model" msdata:IsEntityTypeSingular="True" msprop:EntityKeyFields="EntityName" msprop:LookupTableFields="">
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="EntityName" type="xs:string" minOccurs="0" />
                 <xs:element name="CalendarTime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="Time" type="xs:double" minOccurs="0" />
-                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" default="true" minOccurs="0" />
                 <xs:element name="Final_x0020_Time" type="xs:double" minOccurs="0" />
                 <xs:element name="Initial_x0020_Time" type="xs:double" minOccurs="0" />
                 <xs:element name="Time_x0020_Step" type="xs:double" minOccurs="0" />
@@ -23,7 +23,7 @@
                 <xs:element name="World3_2003ID" type="xs:string" minOccurs="0" />
                 <xs:element name="CalendarTime" msdata:DateTimeMode="Unspecified" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="Time" type="xs:double" minOccurs="0" />
-                <xs:element name="Enabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Enabled" type="xs:boolean" default="true" minOccurs="0" />
                 <xs:element name="EntityName" type="xs:string" minOccurs="0" />
                 <xs:element name="Arable_x0020_land" type="xs:double" minOccurs="0" />
                 <xs:element name="Assimilation_x0020_half_x0020_life_x0020_multiplier_x0020_table" type="xs:string" minOccurs="0" />
@@ -125,6 +125,32 @@
                 <xs:element name="Social_x0020_family_x0020_size_x0020_norm_x0020_table" type="xs:string" minOccurs="0" />
                 <xs:element name="Urban_x0020_and_x0020_Industrial_x0020_Land" type="xs:double" minOccurs="0" />
                 <xs:element name="Urban_x0020_and_x0020_industrial_x0020_land_x0020_required_x0020_per_x0020_capita_x0020_table" type="xs:string" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_appearance_x0020_rate_x0020_DELAY31_x0020_Level3" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_appearance_x0020_rate_x0020_DELAY31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_appearance_x0020_rate_x0020_DELAY31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Perceived_x0020_life_x0020_expectancy_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Perceived_x0020_life_x0020_expectancy_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Perceived_x0020_life_x0020_expectancy_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Perceived_x0020_food_x0020_ratio_x0020_SMOOTHI1_x0020_SMOOTHI" type="xs:double" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Nonrenewable_x0020_resource_x0020_usage_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Land_x0020_yield_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Fertility_x0020_control_x0020_facilities_x0020_per_x0020_capita_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Fertility_x0020_control_x0020_facilities_x0020_per_x0020_capita_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Fertility_x0020_control_x0020_facilities_x0020_per_x0020_capita_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Effective_x0020_health_x0020_services_x0020_per_x0020_capita_x0020_SMOOTH1_x0020_SMOOTH" type="xs:double" minOccurs="0" />
+                <xs:element name="Delayed_x0020_labour_x0020_utilisation_x0020_fraction_x0020_SMOOTHI1_x0020_SMOOTHI" type="xs:double" minOccurs="0" />
+                <xs:element name="Delayed_x0020_industrial_x0020_output_x0020_per_x0020_capita_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Delayed_x0020_industrial_x0020_output_x0020_per_x0020_capita_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Delayed_x0020_industrial_x0020_output_x0020_per_x0020_capita_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
+                <xs:element name="Average_x0020_industrial_x0020_output_x0020_per_x0020_capita_x0020_SMOOTH1_x0020_SMOOTH" type="xs:double" minOccurs="0" />
+                <xs:element name="Agricultural_x0020_inputs_x0020_SMOOTHI1_x0020_SMOOTHI" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_SMOOTH3" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level2" type="xs:double" minOccurs="0" />
+                <xs:element name="Persistent_x0020_pollution_x0020_generation_x0020_factor_x0020_2_x0020_SMOOTH31_x0020_Level1" type="xs:double" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
